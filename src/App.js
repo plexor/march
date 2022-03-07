@@ -43,7 +43,7 @@ export default function App() {
 
 
 
-    <MDBNavbar expand='lg' light style={{ margin: 0, backgroundColor: '#e3f2fd' }}>
+    <MDBNavbar expand='lg' light style={{ margin: 0, backgroundColor: 'purple' }}>
       <MDBContainer fluid>
         <MDBNavbarBrand href='#'>
             <img
@@ -85,7 +85,7 @@ export default function App() {
     </MDBNavbar>
 
 <header>
-   <div className='p-5 text-center bg-light'>
+   <div breakpoint="sm" className='p-5 text-center bg-dark'>
         <h1 className='mb-3'>Ruben Colon</h1>
         <h4 className='mb-3'>Web Developer</h4>
         <p className='mb-3'> Thank you for visiting, this website was designed by <em>me</em> using React components from an API. </p>
@@ -99,10 +99,10 @@ export default function App() {
 
 
       
- <MDBCarousel showIndicators showControls fade>
+ <MDBCarousel breakpoint="sm" showIndicators showControls fade>
       <MDBCarouselInner>
         <MDBCarouselItem className='active'>
-          <MDBCarouselElement src='https://mdbootstrap.com/img/Photos/Slides/img%20(15).webp' alt='...' />
+          <MDBCarouselElement src='https://media.istockphoto.com/vectors/comic-book-style-font-vector-id1283810815?k=20&m=1283810815&s=612x612&w=0&h=oXL8TC9uBlSaV6z0nIrLqp_-MleC94p6ZiiUspxVoNU=' alt='...' />
           <MDBCarouselCaption>
             <h5>First slide label</h5>
             <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
@@ -110,7 +110,7 @@ export default function App() {
         </MDBCarouselItem>
 
         <MDBCarouselItem>
-          <MDBCarouselElement src='https://mdbootstrap.com/img/Photos/Slides/img%20(22).webp' alt='...' />
+          <MDBCarouselElement src='https://media.istockphoto.com/photos/robots-call-center-picture-id920743046?k=20&m=920743046&s=612x612&w=0&h=CRurhReb6fbSuzLuBoRJHF26qMPKtgfOzTzXnVh0LT8=' alt='...' />
           <MDBCarouselCaption>
             <h5>Second slide label</h5>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
@@ -118,7 +118,7 @@ export default function App() {
         </MDBCarouselItem>
 
         <MDBCarouselItem>
-          <MDBCarouselElement src='https://mdbootstrap.com/img/Photos/Slides/img%20(23).webp' alt='...' />
+          <MDBCarouselElement src='https://media.istockphoto.com/photos/robot-woman-scifi-android-female-artificial-intelligence-3d-render-picture-id1189902622?k=20&m=1189902622&s=612x612&w=0&h=2JA_5PsE7d7JEHHEUDmVqjrptTUF118Mz-RbMR47-aE=' alt='...' />
           <MDBCarouselCaption>
             <h5>Third slide label</h5>
             <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
@@ -132,7 +132,7 @@ export default function App() {
 
 
 
-<MDBFooter bgColor='light' className='text-center text-lg-start text-muted'>
+<MDBFooter bgColor='dark' className='text-center text-lg-start text-muted'>
       <section className='d-flex justify-content-center justify-content-lg-between p-4 border-bottom'>
         <div className='me-5 d-none d-lg-block'>
           <span>Get connected with us on social networks:</span>
